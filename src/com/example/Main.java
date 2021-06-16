@@ -11,5 +11,10 @@ public class Main {
         else if (number % 5 == 0)
             result = "b";
         System.out.println(result); // prints b
+
+        int newNumber = 4;
+//      standard one line ternary operator
+        String newResult = newNumber % 2 == 0 ? "c" : "d" ;
+        System.out.println(newResult);
     }
 }
