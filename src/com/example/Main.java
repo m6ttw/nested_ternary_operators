@@ -2,6 +2,8 @@ package com.example;
 
 public class Main {
 
+//    Just a small exercise to find a good layout for a nested ternary operator
+
     public static void main(String[] args) {
 	    int number = 5;
 //	    standard if else statement first
@@ -26,6 +28,6 @@ public class Main {
                    : "doesn't divide";
         System.out.println(res);
 
-//      Looks noice
+//      Looks pretty good
     }
 }
